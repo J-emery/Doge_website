@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+#shibu-pic {
+  margin-left:3%;
+  margin-right:3%;
+  margin-bottom: 3%;
+  width: 94%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  background-color: hotpink;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+header {
+  background-color: lightgreen;
+  width: 100%;
+  display : flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  width:  25%;
+  margin: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#header-image {
+  width : 20%;
+}
+
+#refresh {
+  margin: 1rem;
+}
+
+.label {
+  padding-right: 1rem;
+}
+
+footer {
+  position: absolute;
+  bottom:0;
+  background-color: lightblue;
+  display : flex;
+  align-items: center;
+  justify-content: space-between;
+  width : 100%;
+}
+
+footer nav {
+  display: flex;
+}
+footer nav a {
+  margin-right:1rem;
+}
+
+footer p {
+  margin: 0.25rem;
+}
+
+.social-logo {
+  width : 1rem;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+body {
+  overscroll-behavior: none;
 }
